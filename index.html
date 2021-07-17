@@ -18,7 +18,7 @@
 
 <body class="d-flex flex-column h-100 homeBG">
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #0e0a22;">
     <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">Bootstrap Grids</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -66,9 +66,27 @@
        <div class="container text-center mt-5">
            <h1 class="display-1 homeText">Bootstrap Grid Demo</h1>
            <h3 class="text-white">An exercise in Bootstrap grid layouts...</h3>
+           
+              <div class="row pt-5">
+                  <div class="card col-6">
+                      <div class="card-body">
+                          <h5 class="card-title">Grid One</h5>
+                          <p class="card-text">A side by side layout with two equal columns</p>
+                          <a href="/grid1.html" class="btn btn-primary">Go to Grid 1</a>
+                      </div>
+                  </div>
+                  <div class="card col-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Grid Two</h5>
+                        <p class="card-text">A side by side layout with a main area and a narrower sidebar</p>
+                        <a href="#" class="btn btn-primary">Go to Grid 2</a>
+                    </div>
+                </div>
+              </div>
+           
        </div>
     </main>
-    <footer class="footer mt-auto py-3 bg-dark">
+    <footer class="footer mt-auto py-3" style="background-color: #0e0a22;">
         <div class="container-fluid text-center">
             <span class="text-white">Bootstrap Grids Demo - Kevin Doyle</span>
         </div>
